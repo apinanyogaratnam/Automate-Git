@@ -9,11 +9,11 @@ int main() {
     //system("git add .");
     char message[1024];
     fgets(message ,1024, stdin);
+    message[strcspn(message, "\n")] = 0;
     strcat(message, "'");
     char command[1024] = "git commit -m '";
     strcat(command, message);
     // system("git commit -m '");
-    
     printf("%s\n", command);
     return 0;
 }
