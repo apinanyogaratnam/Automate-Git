@@ -14,6 +14,6 @@ int main() {
     char command[1024] = "git commit -m '";
     strcat(command, message);
     system(command);
-    //printf("%s\n", command);
+    system("clear");
     return 0;
 }
