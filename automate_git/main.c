@@ -6,6 +6,7 @@
 int main() {
     bool init = false;
     if (init) system("git init");
+    
     system("git add .");
     char message[1024];
     fgets(message ,1024, stdin);
