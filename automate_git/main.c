@@ -14,6 +14,7 @@ int main() {
     char command[1024] = "git commit -m '";
     strcat(command, message);
     system(command);
+    system("git push -u origin main");
     system("clear");
     return 0;
 }
