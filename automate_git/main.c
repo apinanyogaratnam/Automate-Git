@@ -6,9 +6,10 @@
 int main() {
     bool init = false;
     if (init) system("git init");
-    
+
     system("git add .");
     char message[1024];
+    printf("Enter commit message: ");
     fgets(message ,1024, stdin);
     message[strcspn(message, "\n")] = 0;
     strcat(message, "'");
