@@ -13,6 +13,7 @@ int main() {
     char command[1024] = "git commit -m '";
     strcat(command, message);
     // system("git commit -m '");
+    
     printf("%s\n", command);
     return 0;
 }
