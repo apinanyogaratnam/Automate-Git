@@ -28,7 +28,8 @@ int main() {
     if (init) system("git init");
 
     // adding all changes
-    system("git add .");
+    system("git add -u");
+    system("git reset -- main/a.out");
     char message[1024];
 
     // get message from user
