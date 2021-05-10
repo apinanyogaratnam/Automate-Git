@@ -48,7 +48,7 @@ int main() {
     if (init) system("git init");
 
     // moving back a directory
-    system("cd ..");
+    system("cd .. && dir");
 
     // adding all changes except a.out
     system("git add .");
