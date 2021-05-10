@@ -6,3 +6,9 @@
 ### 2. `./a.out`
 
 you may choose to keep or delete the executable file after execution
+
+alpha release:
+    - adding a configuration initially
+
+full release:
+    - adding a make file to run commands
