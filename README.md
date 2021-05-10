@@ -24,6 +24,8 @@
 
 you may choose to keep or delete the executable file after execution
 
+issues: 
+    - not tracking changes made outside of dir git_automator
 alpha release:
     - adding a configuration initially (create executable file for initial instructions)
 
