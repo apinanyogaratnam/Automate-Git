@@ -17,3 +17,4 @@ alpha release:
 full release:
     - adding a make file to run commands
     - multiplatform support
+    - remove requirement for comiler as ./a.out will be the executable file
