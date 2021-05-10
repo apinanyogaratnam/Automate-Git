@@ -7,7 +7,7 @@
 
 # Follow the commands below: 
 ### 1. `gcc git_automator/main.c` or `clang git_automator/main.c`
-### 2. `./a.out`
+### 2. `./git_automator/a.out`
 
 you may choose to keep or delete the executable file after execution
 
