@@ -8,7 +8,7 @@
 you may choose to keep or delete the executable file after execution
 
 alpha release:
-    - adding a configuration initially
+    - adding a configuration initially (create executable file for initial instructions)
 
 full release:
     - adding a make file to run commands
