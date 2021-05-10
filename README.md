@@ -1,3 +1,6 @@
+# Requirements:
+* osx
+* gcc or clang c/c++ compiler
 # How to use:
 
 * Place main.c in the same directory as the directory being commited
@@ -12,3 +15,4 @@ alpha release:
 
 full release:
     - adding a make file to run commands
+    - multiplatform support
