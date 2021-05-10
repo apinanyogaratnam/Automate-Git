@@ -2,12 +2,13 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include "main.c"
 
 int main() {
     system("git init");
     system("git add .");
     
-    // commit();
+    commit();
 
     system("git branch -M main");
     // system("git remote add origin https://github.com/USER_HERE/REPO_NAME.git");
