@@ -14,7 +14,7 @@
 ### 3. `./a.out`
 
 
-# Follow the commands below (reoccuring use): 
+# Follow the commands below (re-occuring use): 
 ### 1. `gcc git_automator/main.c` or `clang git_automator/main.c`
 ### 2. `./git_automator/a.out`
 ###                          OR
