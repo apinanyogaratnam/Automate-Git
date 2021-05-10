@@ -47,10 +47,11 @@ int main() {
     bool init = false;
     if (init) system("git init");
 
-    commit();
     // adding all changes
-    system("git add -u");
-    system("git reset -- main/a.out");
+    system("git add .");
+    system("git reset -- a.out");
+
+    commit();
 
     // pushing to github and clearing terminal output
     system("git push -u origin main");
