@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include<unistd.h> 
 
 // api to create a new repo
 // curl -u "apinanyogaratnam" https://api.github.com/user/repos -d '{"name":"repo name", "private": true}'
@@ -48,7 +49,7 @@ int main() {
     if (init) system("git init");
 
     // moving back a directory
-    system("cd .. && dir");
+    chdir("..");
 
     // adding all changes except a.out
     system("git add .");
@@ -61,3 +62,5 @@ int main() {
     system("clear");
     return 0;
 }
+
+// can use: system("git init && git add ."); "multiple commands in the same line"
