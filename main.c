@@ -22,14 +22,7 @@
 // api to delete repo)
 // curl --location --request DELETE 'https://api.github.com/repos/PUT YOUR USERNAME HERE/REPO_NAME'
 
-
-int main() {
-    bool init = false;
-    if (init) system("git init");
-
-    // adding all changes
-    system("git add -u");
-    system("git reset -- main/a.out");
+void commit() {
     char message[1024];
 
     // get message from user
@@ -44,8 +37,22 @@ int main() {
     char command[1024] = "git commit -m '";
     strcat(command, message);
 
-    // commiting and pushing to github and clearing terminal output
+    // commiting command
     system(command);
+    return;
+}
+
+
+int main() {
+    bool init = false;
+    if (init) system("git init");
+
+    commit();
+    // adding all changes
+    system("git add -u");
+    system("git reset -- main/a.out");
+
+    // pushing to github and clearing terminal output
     system("git push -u origin main");
     system("clear");
     return 0;
