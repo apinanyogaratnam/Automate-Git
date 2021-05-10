@@ -3,10 +3,10 @@
 * gcc or clang c/c++ compiler
 
 # How to use:
-* Place main.c in the same directory as the directory being commited
+* Place git_automator in the same directory as the directory being commited
 
 # Follow the commands below: 
-### 1. `gcc main.c` or `clang main.c`
+### 1. `gcc git_automator/main.c` or `clang git_automator/main.c`
 ### 2. `./a.out`
 
 you may choose to keep or delete the executable file after execution
