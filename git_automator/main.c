@@ -28,6 +28,7 @@ void add() {
     // adding all changes except a.out
     system("git add .");
     system("git reset -- a.out");
+    return;
 }
 
 int automate_in_terminal() {

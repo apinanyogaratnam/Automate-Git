@@ -4,14 +4,30 @@
 #include <string.h>
 #include "main.c"
 
+void remote_repository_connection() {
+    char *name = (char *)calloc(1024, sizeof(char));
+    printf("Enter github url: ");
+    fgets(name, 1024, stdin);
+    name[strcspn(name, "\n")] = 0;
+    char command[1024] = "git remote add origin ";
+    strcat(command, name);
+    system(command);
+    free(name);
+    return;
+}
+
 int automate_init() {
     system("git init");
     system("git add .");
     
     commit();
 
+    // change branch
     system("git branch -M main");
-    // system("git remote add origin https://github.com/USER_HERE/REPO_NAME.git");
+
+    // set up connection to repository
+    remote_repository_connection();
+
     system("git push -u origin main");
     return 0;
 }

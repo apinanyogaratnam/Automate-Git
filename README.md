@@ -34,3 +34,6 @@ full release:
     - adding a make file to run commands
     - multiplatform support (as of now works on multiplatform except readme is not updated with windows instructions)
     - remove requirement for comiler as ./a.out will be the executable file
+
+v1.1: 
+    - add functionality for different branches (create new file)
