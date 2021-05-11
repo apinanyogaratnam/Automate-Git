@@ -26,7 +26,8 @@ void commit() {
 
 
 int main() {
-    #ifdef __APPLE__
+    #ifdef _WIN32
+    #else
         bool init = false;
         if (init) system("git init");
 
@@ -43,8 +44,6 @@ int main() {
         system("git push -u origin main");
         system("clear");
         return 0;
-    #elif __LINUX__
-    #elif _WIN32
     #endif
 }
 
