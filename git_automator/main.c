@@ -24,26 +24,34 @@ void commit() {
     return;
 }
 
+void add() {
+    // adding all changes except a.out
+    system("git add .");
+    system("git reset -- a.out");
+}
+
+int automate_in_terminal() {
+    bool init = false;
+    if (init) system("git init");
+
+    // moving back a directory
+    chdir("..");
+
+    add();
+    commit();
+
+    // pushing to github and clearing terminal output
+    system("git push -u origin main");
+    system("clear");
+    return 0;
+}
+
 
 int main() {
     #ifdef _WIN32
+        return automate_in_terminal();
     #else
-        bool init = false;
-        if (init) system("git init");
-
-        // moving back a directory
-        chdir("..");
-
-        // adding all changes except a.out
-        system("git add .");
-        system("git reset -- a.out");
-
-        commit();
-
-        // pushing to github and clearing terminal output
-        system("git push -u origin main");
-        system("clear");
-        return 0;
+        return automate_in_terminal();
     #endif
 }
 
