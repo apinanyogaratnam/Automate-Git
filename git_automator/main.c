@@ -26,22 +26,26 @@ void commit() {
 
 
 int main() {
-    bool init = false;
-    if (init) system("git init");
+    #ifdef __APPLE__
+        bool init = false;
+        if (init) system("git init");
 
-    // moving back a directory
-    chdir("..");
+        // moving back a directory
+        chdir("..");
 
-    // adding all changes except a.out
-    system("git add .");
-    system("git reset -- a.out");
+        // adding all changes except a.out
+        system("git add .");
+        system("git reset -- a.out");
 
-    commit();
+        commit();
 
-    // pushing to github and clearing terminal output
-    system("git push -u origin main");
-    system("clear");
-    return 0;
+        // pushing to github and clearing terminal output
+        system("git push -u origin main");
+        system("clear");
+        return 0;
+    #elif __LINUX__
+    #elif _WIN32
+    #endif
 }
 
 // can use: system("git init && git add ."); "multiple commands in the same line"
