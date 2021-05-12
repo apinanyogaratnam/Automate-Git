@@ -55,3 +55,4 @@ v1.1:
     - reduce number of steps for setting up tool
     - when cloning repo, it makes a dir of automate_git (update commands with this change)
     - make readme better looking
+    - make most files exe files if possible
