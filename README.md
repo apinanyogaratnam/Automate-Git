@@ -3,14 +3,14 @@
 * git
 
 # How to use:
-* Place git_automator in the same directory as the directory being commited
-* Delete or move README.md into git_automator directory (steps)
-    * ### `git clone https://github.com/apinanyogaratnam/automate_git.git`
-    * run initial_configuration.c file (show steps how to run file)
-    ### 1. change directory to git_automator
-    ### 2. `gcc initial_configuration.c`
-    ### 3. `./a.out`
-    * delete automate_git
+* clone tool into main project file
+* ### `git clone https://github.com/apinanyogaratnam/automate_git.git`
+* run initial_configuration.c file (show steps how to run file)
+* ### 1. change directory to git_automator
+* ### 2. `gcc initial_configuration.c`
+* ### 3. `./a.out`
+* ### 4. change directory back to project file
+* ### 5. delete automate_git directory
 
 # Follow the commands below (uninitialized git environment):
 ### 1. `gcc git_automator/configure.c` or `clang git_automator/configure.c`
@@ -46,9 +46,10 @@ full release:
     - multiplatform support (as of now works on multiplatform except readme is not updated with windows instructions) COMPLETE
     - remove requirement for comiler as ./a.out will be the executable file COMPLETE
     - move README.md file inside git_automator for configure.c (if already git initialized repo, manually move README.md) COMPLETE 
-    - (might be problematic since user may already have a readme file)
+    - (might be problematic since user may already have a readme file) COMPLETE
     - make readme better looking
     - test configure.c 
+    - test initial_configuration.c COMPLETE
 
 v1.1: 
     - add functionality for different branches (create new file)
