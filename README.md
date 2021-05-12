@@ -55,3 +55,4 @@ full release:
 v1.1: 
     - add functionality for different branches (create new file)
     - reduce number of steps for setting up tool
+    - when cloning repo, it makes a dir of automate_git (update commands with this change)
