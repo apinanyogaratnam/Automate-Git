@@ -56,3 +56,4 @@ v1.1:
     - when cloning repo, it makes a dir of automate_git (update commands with this change)
     - make readme better looking
     - make most files exe files if possible
+    - git installer (for mac only)
