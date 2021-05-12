@@ -1,5 +1,5 @@
 # Requirements:
-* osx
+* osx / windows / linux
 * git
 
 # How to use:
