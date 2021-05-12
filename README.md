@@ -22,7 +22,8 @@
 ### 2. `gcc main.c` or `clang main.c`
 ### 3. `./a.out`
 ###                          OR
-### 1. `./git_automator/automator`
+### 1. `cd git_automator`
+### 2. `./automator`
 you may choose to keep or delete the executable file after execution
 
 issues: 
