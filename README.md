@@ -6,8 +6,12 @@
 * Place git_automator in the same directory as the directory being commited
 * Delete or move README.md into git_automator directory
     * create directory called 'initial_config'
+    * change directory to initial_config
     * ### `git clone https://github.com/apinanyogaratnam/automate_git.git`
     * run initial_configuration.c file (show steps how to run file)
+    ### 1. change directory to git_automator
+    ### 2. `gcc initial_configuration.c`
+    ### 3. `./a.out`
     * delete initial_config
 
 # Follow the commands below (uninitialized git environment):
