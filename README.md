@@ -45,6 +45,7 @@ full release:
     - move README.md file inside git_automator for configure.c (if already git initialized repo, manually move README.md) COMPLETE 
     - (might be problematic since user may already have a readme file)
     - make readme better looking
+    - test configure.c 
 
 v1.1: 
     - add functionality for different branches (create new file)

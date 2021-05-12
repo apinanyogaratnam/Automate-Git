@@ -4,8 +4,10 @@
 #include <string.h>
 #include<unistd.h> 
 
+// in initial_config dir
+// cloned project
 int init_config() {
-    
+
     return 0;
 }
 
