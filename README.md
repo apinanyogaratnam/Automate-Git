@@ -30,13 +30,14 @@ you may choose to keep or delete the executable file after execution
 issues: 
     NONE
 
-alpha release:
+alpha release: RELEASED
     - adding a configuration initially (create executable file for initial instructions) COMPLETE
 
 full release:
-    - adding a make file to run commands (unnecessary since exe file created but create for developers)
+    - adding a make file to run commands (unnecessary since exe file created but create for developers) REMOVED
     - multiplatform support (as of now works on multiplatform except readme is not updated with windows instructions) COMPLETE
     - remove requirement for comiler as ./a.out will be the executable file COMPLETE
+    - move README.md file inside git_automator for configure.c (if already git initialized repo, manually move README.md)
 
 v1.1: 
     - add functionality for different branches (create new file)
