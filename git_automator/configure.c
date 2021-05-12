@@ -28,6 +28,7 @@ int automate_init() {
     // set up connection to repository
     remote_repository_connection();
 
+    // push repo to github
     system("git push -u origin main");
     return 0;
 }
