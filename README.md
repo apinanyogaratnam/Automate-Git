@@ -4,6 +4,7 @@
 
 # How to use:
 * Place git_automator in the same directory as the directory being commited
+* Delete or move README.md into git_automator directory
 
 # Follow the commands below (first time use):
 ### 1. `gcc git_automator/configure.c` or `clang git_automator/configure.c`
