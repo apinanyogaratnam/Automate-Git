@@ -20,9 +20,6 @@ int automate_init() {
     // moving back a directory
     chdir("..");
 
-    // move README.md to git_automator directory
-    system("mv README.md git_automator/");
-    
     system("git init");
     system("git add .");
     

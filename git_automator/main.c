@@ -16,9 +16,6 @@ int automate_in_terminal() {
     // moving back a directory
     chdir("..");
 
-    // moving README.md to git_automator directory
-    system("mv README.md git_automator/");
-
     add();
     commit();
 
