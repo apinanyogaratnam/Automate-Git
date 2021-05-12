@@ -8,6 +8,7 @@
     * create directory called 'initial_config'
     * ### `git clone https://github.com/apinanyogaratnam/automate_git.git`
     * run initial_configuration.c file (show steps how to run file)
+    * delete initial_config
 
 # Follow the commands below (uninitialized git environment):
 ### 1. `gcc git_automator/configure.c` or `clang git_automator/configure.c`
