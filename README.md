@@ -41,7 +41,7 @@ issues:
 alpha release: RELEASED
     - adding a configuration initially (create executable file for initial instructions) COMPLETE
 
-full release:
+full release: RELEASED
     - adding a make file to run commands (unnecessary since exe file created but create for developers) REMOVED
     - multiplatform support (as of now works on multiplatform except readme is not updated with windows instructions) COMPLETE
     - remove requirement for comiler as ./a.out will be the executable file COMPLETE
