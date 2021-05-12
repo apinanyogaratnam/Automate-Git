@@ -1,5 +1,6 @@
 # Requirements:
 * osx
+* git
 
 # How to use:
 * Place git_automator in the same directory as the directory being commited
