@@ -47,11 +47,11 @@ full release:
     - remove requirement for comiler as ./a.out will be the executable file COMPLETE
     - move README.md file inside git_automator for configure.c (if already git initialized repo, manually move README.md) COMPLETE 
     - (might be problematic since user may already have a readme file) COMPLETE
-    - make readme better looking
-    - test configure.c 
+    - test configure.c COMPLETE
     - test initial_configuration.c COMPLETE
 
 v1.1: 
     - add functionality for different branches (create new file)
     - reduce number of steps for setting up tool
     - when cloning repo, it makes a dir of automate_git (update commands with this change)
+    - make readme better looking
