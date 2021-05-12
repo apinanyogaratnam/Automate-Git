@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include "main.c"
+#include "functions.c"
 
 void remote_repository_connection() {
     char *name = (char *)calloc(1024, sizeof(char));
@@ -32,6 +32,7 @@ int automate_init() {
     system("git push -u origin main");
     return 0;
 }
+
 int main() {
     #ifdef _WIN32
         return automate_init();
