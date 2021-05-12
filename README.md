@@ -29,7 +29,7 @@ issues:
     NONE
 
 alpha release:
-    - adding a configuration initially (create executable file for initial instructions)
+    - adding a configuration initially (create executable file for initial instructions) COMPLETE
 
 full release:
     - adding a make file to run commands
