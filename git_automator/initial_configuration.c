@@ -15,7 +15,7 @@ int init_config() {
     system("mv README.md git_automator/");
 
     // move git_automator to previous dir
-    system("mv git_automator ..");
+    system("mv git_automator ../..");
 
     // there now exists initial_config and git_automator side to side
 
