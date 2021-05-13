@@ -33,11 +33,11 @@ add steps to run configure_git exe file INCOMPLETE
 ### 1. `cd git_automator`
 ### 2. `./automator`
 
-Upcoming releases:
-    v1.1: 
-        - add functionality for different branches (create new file)
-        - reduce number of steps for setting up tool
-        - when cloning repo, it makes a dir of automate_git (update commands with this change)
-        - make readme better looking
-        - make most files exe files if possible
-        - git installer (for mac only)
+Upcoming releases: <br />
+    v1.1: <br />
+        - add functionality for different branches (create new file) <br />
+        - reduce number of steps for setting up tool <br />
+        - when cloning repo, it makes a dir of automate_git (update commands with this change) <br />
+        - make readme better looking <br />
+        - make most files exe files if possible <br />
+        - git installer (for mac only) <br />
