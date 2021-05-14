@@ -13,8 +13,9 @@ void add() {
 }
 
 int automate_in_terminal() {
-    // moving back a directory
+    // moving back to automate_git folder
     chdir("..");
+    // chdir("..");
 
     add();
     commit();
