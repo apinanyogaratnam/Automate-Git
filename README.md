@@ -15,7 +15,7 @@ Clone tool into main project file
 
 # Follow the commands below (uninitialized git environment):
 #### 1. change directory to git_automator
-#### 2. ./configure_git
+#### 2. `./configure_git`
 
 # Follow the commands below (git initialized and push made): 
 #### 1. change directory to git_automator
