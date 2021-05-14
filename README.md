@@ -24,7 +24,7 @@ Upcoming releases: <br />
         - reduce number of steps for setting up tool COMPLETE<br />
         - when cloning repo, it makes a dir of automate_git (update commands with this change) COMPLETE<br />
         - make readme better looking COMPLETE <br />
-        - make most files exe files if possible <br />
+        - make most files exe files if possible COMPLETE<br />
         - git installer (for mac only) <br />
 </pre>
 
