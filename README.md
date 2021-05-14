@@ -11,7 +11,7 @@
 
 # How to use:
 Clone tool into main project file
-* ## `git clone https://github.com/apinanyogaratnam/automate_git.git`
+* #### `git clone https://github.com/apinanyogaratnam/automate_git.git`
 
 # Follow the commands below (uninitialized git environment):
 ### 1. change directory to git_automator
