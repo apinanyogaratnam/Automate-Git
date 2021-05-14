@@ -43,3 +43,6 @@ Upcoming releases: <br />
         - make most files exe files if possible <br />
         - git installer (for mac only) <br />
 </pre>
+
+Notes: <br />
+- As of now I will update main.c file but will not update ./automator until ready 
