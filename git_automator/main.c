@@ -15,7 +15,7 @@ void add() {
 int automate_in_terminal() {
     // moving back to automate_git folder
     chdir("..");
-    // chdir(".."); // uncomment and clone repo for push
+    chdir("..");
 
     add();
     commit();

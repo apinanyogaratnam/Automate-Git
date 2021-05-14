@@ -46,3 +46,4 @@ Upcoming releases: <br />
 
 Notes: <br />
 - As of now I will update main.c file but will not update ./automator until ready 
+- Old versions will work regardless of version updates

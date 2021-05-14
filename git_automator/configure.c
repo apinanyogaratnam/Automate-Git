@@ -19,6 +19,7 @@ void remote_repository_connection() {
 int automate_init() {
     // moving back a directory
     chdir("..");
+    chdir("..");
 
     system("git init");
     system("git add .");
