@@ -5,7 +5,7 @@
 # If you do not have git installed:
 - # WINDOWS: 
 ### 1. Download from official git website and set up (https://git-scm.com/)
-- # LIMUX/OSX: 
+- # LINUX/OSX: 
 ### 1. change directory to git_automator
 ### 2. `./install_git`
 
