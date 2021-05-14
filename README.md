@@ -21,7 +21,7 @@ add steps to run configure_git exe file INCOMPLETE
 Upcoming releases: <br />
     v1.1: <br />
         - add functionality for different branches (create new file) <br />
-        - reduce number of steps for setting up tool <br />
+        - reduce number of steps for setting up tool COMPLETE<br />
         - when cloning repo, it makes a dir of automate_git (update commands with this change) <br />
         - make readme better looking COMPLETE <br />
         - make most files exe files if possible <br />
