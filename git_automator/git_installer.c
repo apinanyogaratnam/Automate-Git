@@ -12,6 +12,7 @@ int main() {
         system("brew install git");
         system("clear");
         printf("git installed successfully.\n");
+        system("git --version");
         return 0;
     #endif
 }

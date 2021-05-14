@@ -2,6 +2,13 @@
 * osx / windows / linux
 * git
 
+# If you do not have git installed:
+- # WINDOWS: 
+### 1. Download from official git website and set up (https://git-scm.com/)
+- # LIMUX/OSX: 
+### 1. change directory to git_automator
+### 2. `./install_git`
+
 # How to use:
 * clone tool into main project file
 * ### `git clone https://github.com/apinanyogaratnam/automate_git.git`
