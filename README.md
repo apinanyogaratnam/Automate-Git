@@ -25,6 +25,7 @@ Clone tool into main project file
 Upcoming releases: <br />
     v1.1: <br />
         - add functionality for different branches (create new file) <br />
+        - add MIT License
 </pre>
 
 Notes: <br />
