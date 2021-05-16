@@ -21,6 +21,16 @@ Clone tool into main project file
 #### 1. change directory to git_automator
 #### 2. `./automator`
 
+# Features:
+- Creating and changing branches
+# How to use:
+#### 1. change directory to git_automator
+#### 2. `./branch_git BRANCH_NAME_HERE`
+This will create the branch, checkout to the branch and make a commit <br />
+with message of 'checked out to branch: BRANCH_NAME_HERE', and will make a push <br />
+to your github repository. If you want to checkout back to main, simply follow the how <br />
+to use steps again with the BRANCH_NAME_HERE as the name of your master/main branch.
+
 <pre>
 Upcoming releases: <br />
     v1.1: <br />
@@ -34,5 +44,7 @@ Notes: <br />
 Progress:
     - As of now, branch.c adds and changes to branch
     - cannot reuse main unless a push is made in branch (going to add a push in branch)
+    - Now that this is complete, i can use main.c to commit using the current branch
+    - if we want to change branch from other to main branch, we can simply run branch.c again
 
 Licensed under the [MIT License](LICENSE).
