@@ -34,7 +34,7 @@ to use steps again with the BRANCH_NAME_HERE as the name of your master/main bra
 <pre>
 Upcoming releases: <br />
     v1.1: <br />
-        - add functionality for different branches (create new file) <br />
+        - add functionality for different branches (create new file) COMPLETE<br />
 </pre>
 
 Notes: <br />
