@@ -31,4 +31,8 @@ Notes: <br />
 - As of now I will update main.c file but will not update ./automator until ready 
 - Old versions will work regardless of version updates
 
+Progress:
+    - As of now, branch.c adds and changes to branch
+    - cannot reuse main unless a push is made in branch (going to add a push in branch)
+
 Licensed under the [MIT License](LICENSE).

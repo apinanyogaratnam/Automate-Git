@@ -14,11 +14,11 @@ int main(int argc, char** argv) {
     strcat(checkout_branch, argv[1]);
     system(checkout_branch);
 
+    char push[1024] = "git push -u origin ";
+    strcat(push, argv[1]);
+    system(push);
+
     // to combine both git branch and git checkout we can use the command:
     // git checkout -b BRANCH_NAME
     return 0;
 }
-
-// random scribbles commit 1
-// random scribbles commit 2
-// random scribbles commit 3
