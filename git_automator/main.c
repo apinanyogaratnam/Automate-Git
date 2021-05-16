@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
-#include <unistd.h> 
+#include <unistd.h>
 #include "functions.c"
 
 void add() {
@@ -20,7 +20,7 @@ int automate_in_terminal() {
     commit();
 
     // pushing to github and clearing terminal output
-    system("git push -u origin main");
+    system("git push");
     system("clear");
     return 0;
 }

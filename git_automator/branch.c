@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
+#include <unistd.h> 
 
 int main(int argc, char** argv) {
-    printf("%s\n", argv[1]);
+    chdir("../..");
     char command[1024] = "git branch ";
     strcat(command, argv[1]);
     system(command);
