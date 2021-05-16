@@ -33,7 +33,10 @@ to use steps again with the BRANCH_NAME_HERE as the name of your master/main bra
 
 <pre>
 Upcoming releases: <br />
-    v1.2
+    v1.2:
+        - test ./branch_git BRANCH_NAME_HERE
+        - test ./install_git (repl.it)
+        - test ./automator
 </pre>
 
 Notes: <br />
