@@ -37,7 +37,7 @@ Upcoming releases: <br />
         - test ./branch_git BRANCH_NAME_HERE
         - test ./install_git (repl.it)
         - test ./automator COMPLETE
-        - put src code in a seperate folder
+        - put src code in a seperate folder COMPLETE
 </pre>
 
 Notes: <br />
