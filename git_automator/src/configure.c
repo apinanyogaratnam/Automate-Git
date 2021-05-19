@@ -16,11 +16,12 @@ void remote_repository_connection() {
     return;
 }
 
-int automate_init() {
+int automate_init_unix() {
     // moving back a directory
     chdir("..");
     chdir("..");
 
+    system("touch README.md"); // not added to binary
     system("git init");
     system("git add .");
     
@@ -37,10 +38,16 @@ int automate_init() {
     return 0;
 }
 
+// not added to binary
+int automate_init_win() {
+
+    return 0;
+}
+
 int main() {
     #ifdef _WIN32
-        return automate_init();
+        return automate_init_win();
     #else
-        return automate_init();
+        return automate_init_unix();
     #endif
 }

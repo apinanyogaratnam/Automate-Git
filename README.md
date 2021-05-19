@@ -38,6 +38,8 @@ Upcoming releases: <br />
         - test ./install_git (repl.it)
         - test ./automator COMPLETE
         - put src code in a seperate folder COMPLETE
+        - create readme with initial configure COMPLETE
+        - update configure_git with latest src code
 </pre>
 
 Notes: <br />
