@@ -45,6 +45,7 @@ Upcoming releases: <br />
         - finish readme steps for auto_commit instructions
         - add some optimizations (making two commands in one line of code, etc.)
         - update configure_git with latest src code
+        - recheck on windows how to run exe files like ./a.out on mac
 </pre>
 
 Notes: <br />
