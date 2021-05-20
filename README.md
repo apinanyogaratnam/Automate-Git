@@ -44,6 +44,7 @@ Upcoming releases: <br />
         - test auto_commit.c
         - make binary for auto_commit.c COMPLETE
         - finish readme steps for auto_commit instructions
+        - add some optimizations
 </pre>
 
 Notes: <br />
