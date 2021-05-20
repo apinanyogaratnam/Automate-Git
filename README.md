@@ -40,7 +40,9 @@ Upcoming releases: <br />
         - put src code in a seperate folder COMPLETE
         - create readme with initial configure COMPLETE
         - update configure_git with latest src code
-        - add a automatic commiter (commiting every minute, default_message="automatic-commit-time-[AM/PM]") (first ask user for number of minutes) (cntr c to quit)
+        - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
+        - test auto_commit.c
+        - make binary for auto_commit.c
 </pre>
 
 Notes: <br />
