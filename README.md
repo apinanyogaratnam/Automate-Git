@@ -43,7 +43,7 @@ Upcoming releases: <br />
         - test ./branch_git BRANCH_NAME_HERE
         - test ./install_git (repl.it)
         - finish readme steps for auto_commit instructions
-        - add some optimizations
+        - add some optimizations (making two commands in one line of code, etc.)
         - update configure_git with latest src code
 </pre>
 
