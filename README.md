@@ -42,7 +42,7 @@ Upcoming releases: <br />
         - update configure_git with latest src code
         - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
         - test auto_commit.c
-        - make binary for auto_commit.c
+        - make binary for auto_commit.c COMPLETE
         - finish readme steps for auto_commit instructions
 </pre>
 
