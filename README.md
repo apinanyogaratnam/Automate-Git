@@ -34,17 +34,17 @@ to use steps again with the BRANCH_NAME_HERE as the name of your master/main bra
 <pre>
 Upcoming releases: <br />
     v1.2:
-        - test ./branch_git BRANCH_NAME_HERE
-        - test ./install_git (repl.it)
         - test ./automator COMPLETE
         - put src code in a seperate folder COMPLETE
         - create readme with initial configure COMPLETE
-        - update configure_git with latest src code
+        - make binary for auto_commit.c COMPLETE
         - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
         - test auto_commit.c
-        - make binary for auto_commit.c COMPLETE
+        - test ./branch_git BRANCH_NAME_HERE
+        - test ./install_git (repl.it)
         - finish readme steps for auto_commit instructions
         - add some optimizations
+        - update configure_git with latest src code
 </pre>
 
 Notes: <br />
