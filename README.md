@@ -40,7 +40,7 @@ Upcoming releases: <br />
         - make binary for auto_commit.c COMPLETE
         - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
         - update configure_git with latest src code COMPLETE
-        - test auto_commit.c
+        - test auto_commit.c COMPLETE
         - test configure_git for mac and windows
         - test ./branch_git BRANCH_NAME_HERE
         - test ./install_git (repl.it)
