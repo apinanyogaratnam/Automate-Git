@@ -39,13 +39,13 @@ Upcoming releases: <br />
         - create readme with initial configure COMPLETE
         - make binary for auto_commit.c COMPLETE
         - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
+        - update configure_git with latest src code COMPLETE
         - test auto_commit.c
         - test configure_git for mac and windows
         - test ./branch_git BRANCH_NAME_HERE
         - test ./install_git (repl.it)
         - finish readme steps for auto_commit instructions
         - add some optimizations (making two commands in one line of code, etc.)
-        - update configure_git with latest src code
         - recheck on windows how to run exe files like ./a.out on mac
         - test everything for windows
 </pre>
