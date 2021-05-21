@@ -13,13 +13,13 @@ void remote_repository_connection() {
     strcat(command, name);
     system(command);
     free(name);
+    
     return;
 }
 
 int automate_init_unix() {
     // moving back a directory
-    chdir("..");
-    chdir("..");
+    chdir("../..");
 
     system("touch README.md"); // not added to binary
     system("git init");
@@ -35,11 +35,29 @@ int automate_init_unix() {
 
     // push repo to github
     system("git push -u origin main");
+
     return 0;
 }
 
 // not added to binary
 int automate_init_win() {
+    // moving back a directory
+    chdir("../..");
+
+    system("touch README.md"); // not added to binary
+    system("git init");
+    system("git add .");
+    
+    commit();
+
+    // change branch
+    system("git branch -M main");
+
+    // set up connection to repository
+    remote_repository_connection();
+
+    // push repo to github
+    system("git push -u origin main");
 
     return 0;
 }
