@@ -41,8 +41,8 @@ Upcoming releases: <br />
         - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
         - update configure_git with latest src code COMPLETE
         - test auto_commit.c COMPLETE
+        - test ./branch_git BRANCH_NAME_HERE (does not create new branch, needs FIXING) COMPLETE
         - test configure_git for mac and windows
-        - test ./branch_git BRANCH_NAME_HERE (does not create new branch, needs FIXING)
         - test ./install_git (repl.it)
         - finish readme steps for auto_commit instructions
         - add some optimizations (making two commands in one line of code, etc.)
