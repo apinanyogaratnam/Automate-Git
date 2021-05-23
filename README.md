@@ -45,7 +45,7 @@ line of code, possibly causing a syntax or other errors. <br />
 #### 1. open .gitignore
 #### 2. at the bottom, add `/automate_git`
 This will make sure, when you push your repository to github, it will not push the automate_git <br />
-directory if desired. This is premade during configure_git.exe file but if wanted in repository, <br />
+directory if desired. This is premade during configure_git executable file but if wanted in repository, <br />
 the code will not display for automate_git but will show up as a directory. 
 # To do this:
 #### 1. open .gitignore
