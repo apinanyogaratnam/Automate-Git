@@ -48,6 +48,7 @@ Upcoming releases: <br />
         - add some optimizations (making two commands in one line of code, etc.)
         - recheck on windows how to run exe files like ./a.out on mac
         - test everything for windows
+        - add a .gitignore and ignore the git_automator
 </pre>
 
 Notes: <br />
