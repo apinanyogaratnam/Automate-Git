@@ -35,12 +35,8 @@ to use steps again with the BRANCH_NAME_HERE as the name of your master/main bra
 Upcoming releases: <br />
     v1.2:
         Official Release:
-        - test configure_git for mac and windows
-        - test ./install_git (repl.it)
         - finish readme steps for auto_commit instructions
-        - add some optimizations (making two commands in one line of code, etc.)
         - recheck on windows how to run exe files like ./a.out on mac
-        - test everything for windows
         - add instructions on how to .gitignore if already configured git
         - remove configure.c file after configured once (maybe)
     v1.3:
