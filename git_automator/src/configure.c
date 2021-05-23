@@ -13,7 +13,7 @@ void remote_repository_connection() {
     strcat(command, name);
     system(command);
     free(name);
-    
+
     return;
 }
 
@@ -21,7 +21,9 @@ int automate_init_unix() {
     // moving back a directory
     chdir("../..");
 
-    system("touch README.md"); // not added to binary
+    system("touch README.md");
+    system("touch .gitignore");
+    system("echo \"/automate_git\" >> .gitignore");
     system("git init");
     system("git add .");
     
@@ -39,12 +41,13 @@ int automate_init_unix() {
     return 0;
 }
 
-// not added to binary
 int automate_init_win() {
     // moving back a directory
     chdir("../..");
 
-    system("touch README.md"); // not added to binary
+    system("echo.>README.md");
+    system("echo.>.gitignore");
+    // add line for windows command for appending to file .gitignore: '/automate_git'
     system("git init");
     system("git add .");
     
