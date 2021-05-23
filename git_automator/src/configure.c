@@ -24,6 +24,7 @@ int automate_init_unix() {
     system("touch README.md");
     system("touch .gitignore");
     system("echo \"/automate_git\" >> .gitignore");
+    
     system("git init");
     system("git add .");
     
@@ -46,8 +47,8 @@ int automate_init_win() {
     chdir("../..");
 
     system("echo.>README.md");
-    system("echo.>.gitignore");
-    // add line for windows command for appending to file .gitignore: '/automate_git'
+    system("echo /automate_git > .gitignore");
+
     system("git init");
     system("git add .");
     

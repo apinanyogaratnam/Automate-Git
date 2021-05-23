@@ -45,7 +45,7 @@ Upcoming releases: <br />
         - remove configure.c file after configured once (maybe)
     v1.3:
         Beta Release:
-        - learn how to download git using terminal on windows
+        
 </pre>
 
 Notes: <br />
