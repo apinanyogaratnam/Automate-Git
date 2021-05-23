@@ -34,24 +34,18 @@ to use steps again with the BRANCH_NAME_HERE as the name of your master/main bra
 <pre>
 Upcoming releases: <br />
     v1.2:
-        - test ./automator COMPLETE
-        - put src code in a seperate folder COMPLETE
-        - create readme with initial configure COMPLETE
-        - make binary for auto_commit.c COMPLETE
-        - add a automatic commiter (commiting every minute, default_message="automatic-commit-TIME") (first ask user for number of minutes) (cntr c to quit) COMPLETE
-        - update configure_git with latest src code COMPLETE
-        - test auto_commit.c COMPLETE
-        - test ./branch_git BRANCH_NAME_HERE (does not create new branch, needs FIXING) COMPLETE
+        Official Release:
         - test configure_git for mac and windows
         - test ./install_git (repl.it)
         - finish readme steps for auto_commit instructions
         - add some optimizations (making two commands in one line of code, etc.)
         - recheck on windows how to run exe files like ./a.out on mac
         - test everything for windows
-        - add a .gitignore and ignore the automate_git (for init file and add instructions on how to .gitignore if already configured git)
+        - add instructions on how to .gitignore if already configured git
         - remove configure.c file after configured once (maybe)
+    v1.3:
+        Beta Release:
         - learn how to download git using terminal on windows
-        - configure wont work for windows with current commands (needs fixing)
 </pre>
 
 Notes: <br />
