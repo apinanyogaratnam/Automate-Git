@@ -30,10 +30,11 @@ Clone tool into main project file
 ### How to use:
 #### 1. change directory to git_automator
 #### 2. for unix: `./branch_git BRANCH_NAME_HERE` | for windows: `branch_git BRANCH_NAME_HERE`
-This will create the branch, checkout to the branch and make a commit <br />
+This will create the branch, checkout to the branch and make a commit<br />
 with message of 'checked out to branch: BRANCH_NAME_HERE', and will make a push <br />
 to your github repository. If you want to checkout back to main, simply follow the how <br />
 to use steps again with the BRANCH_NAME_HERE as the name of your master/main branch. <br />
+ (creates a new branch if not existent already) <br />
 
 ## 2. Auto commiter
 ### How to use:
