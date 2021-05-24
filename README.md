@@ -42,7 +42,7 @@ This will auto commit for you every minute upto the desired time with a commit m
 of the date and time. This will not push your work as it may commit during user finishing a <br />
 line of code, possibly causing a syntax or other errors. <br />
 
-## 3. Ignore the automator
+## 3. Ignore the automator during push
 ### How to use:
 #### 1. open .gitignore
 #### 2. at the bottom, add `/automate_git`
