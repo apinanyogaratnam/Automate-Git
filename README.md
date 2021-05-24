@@ -21,6 +21,8 @@ Clone tool into main project file
 #### 1. change directory to git_automator
 #### 2. for unix: `./automator` | for windows: `automator`
 
+### Please do not add double quotes in the commit message
+
 # Features:
 - 1. Creating and changing branches
 # How to use:
