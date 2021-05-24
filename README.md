@@ -1,3 +1,5 @@
+# Git Automator
+
 # Requirements:
 * osx / windows / linux
 * git
