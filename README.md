@@ -25,7 +25,7 @@ Clone tool into main project file
 
 # Features:
 ## 1. Creating and changing branches
-# How to use:
+### How to use:
 #### 1. change directory to git_automator
 #### 2. for unix: `./branch_git BRANCH_NAME_HERE` | for windows: `branch_git BRANCH_NAME_HERE`
 This will create the branch, checkout to the branch and make a commit <br />
@@ -34,7 +34,7 @@ to your github repository. If you want to checkout back to main, simply follow t
 to use steps again with the BRANCH_NAME_HERE as the name of your master/main branch. <br />
 
 ## 2. Auto commiter
-# How to use:
+### How to use:
 #### 1. change directory to git_automator
 #### 2. for unix: `./auto_commit_git` | for windows: `auto_commit_git`
 #### 3. Enter the number of minutes to run the auto commiter for
@@ -42,8 +42,8 @@ This will auto commit for you every minute upto the desired time with a commit m
 of the date and time. This will not push your work as it may commit during user finishing a <br />
 line of code, possibly causing a syntax or other errors. <br />
 
-- 3. Ignore the automator
-# How to use:
+## 3. Ignore the automator
+### How to use:
 #### 1. open .gitignore
 #### 2. at the bottom, add `/automate_git`
 This will make sure, when you push your repository to github, it will not push the automate_git <br />
