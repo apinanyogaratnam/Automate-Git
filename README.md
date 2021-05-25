@@ -18,6 +18,7 @@ Clone tool into main project file
 # Follow the commands below (uninitialized git environment):
 #### 1. change directory to git_automator
 #### 2. for unix: `./configure_git` | for windows: `configure_git`
+Creates README.md file and .gitignore file (check if it overrides current readme file)
 
 # Follow the commands below (git initialized and push made): 
 #### 1. change directory to git_automator
