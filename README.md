@@ -60,6 +60,7 @@ the code will not display for automate_git but will show up as a directory.
 
 Notes: <br />
 - Old versions will work regardless of version updates
+- rm -rf dir_name will force delete the file using terminal command
 
 
 Licensed under the [MIT License](LICENSE).
