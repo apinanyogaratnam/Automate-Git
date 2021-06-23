@@ -38,9 +38,9 @@ List *ask_and_insert_command_into_list(List *list) {
     char users_command[STR_LEN];
     printf("Enter command to use: ");
     fgets(users_command, STR_LEN, stdin);
-
+    users_command[strcspn(users_command, "\n")] = 0;
     list = insert_into_list(users_command, list);
-    
+
     return list;
 }
 
@@ -79,7 +79,16 @@ int main() {
     List *p = head;
     while (p) {
         printf("current pointer's command string: %s\n", p->command);
-        system(p->command);
+        char command[STR_LEN];
+        int count_array_string = 0;
+        for (int i=0; i<strlen(p->command); i++) {
+            printf("command i: %c\n", p->command[i]);
+            command[count_array_string] = *(p->command + i);
+            count_array_string++;
+        }
+        command[count_array_string] = 0;
+        printf("THE COMMAND: %s\n", command);
+        system(command);
 
         p = p->next;
     }
