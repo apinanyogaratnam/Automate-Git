@@ -7,14 +7,14 @@
 const int STR_LEN = 1024;
 
 typedef struct list {
-    char *command;
+    char command[STR_LEN];
     struct list *next;
 } List;
 
 List *create_new_node(char *command) {
     List *node = (List *)calloc(1, sizeof(List));
 
-    node->command = command;
+    strcpy(node->command, command);
     node->next = NULL;
 
     return node;
@@ -79,16 +79,7 @@ int main() {
     List *p = head;
     while (p) {
         printf("current pointer's command string: %s\n", p->command);
-        char command[STR_LEN];
-        int count_array_string = 0;
-        for (int i=0; i<strlen(p->command); i++) {
-            printf("command i: %c\n", p->command[i]);
-            command[count_array_string] = *(p->command + i);
-            count_array_string++;
-        }
-        command[count_array_string] = 0;
-        printf("THE COMMAND: %s\n", command);
-        system(command);
+        system(p->command);
 
         p = p->next;
     }
