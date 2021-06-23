@@ -20,8 +20,8 @@ List *create_new_node(char *command) {
     return node;
 }
 
-void insert_into_list(char *command, List *list) {
-    if (!list) list = create_new_node(command);
+List *insert_into_list(char *command, List *list) {
+    if (!list) return create_new_node(command);
 
     // insert to tail
     List *p = list;
@@ -30,14 +30,18 @@ void insert_into_list(char *command, List *list) {
     }
 
     p->next = create_new_node(command);
+
+    return list;
 }
 
-void ask_and_insert_command_into_list(List *list) {
+List *ask_and_insert_command_into_list(List *list) {
     char users_command[STR_LEN];
     printf("Enter command to use: ");
     fgets(users_command, STR_LEN, stdin);
 
-    insert_into_list(users_command, list);
+    list = insert_into_list(users_command, list);
+    
+    return list;
 }
 
 int get_number_of_comamnds() {
@@ -45,6 +49,7 @@ int get_number_of_comamnds() {
 
     printf("Enter the number of commands you wish to use: ");
     scanf("%d", &number_of_commands);
+    getchar();
 
     return number_of_commands;
 }
@@ -62,30 +67,24 @@ void free_list_memory(List *list) {
 }
 
 int main() {
-    List *dummy_head = create_new_node("");
+    List *head = NULL;
 
     int number_of_commands = get_number_of_comamnds();
 
     for (int i=0; i<number_of_commands; i++) {
-        ask_and_insert_command_into_list(dummy_head);
+        head = ask_and_insert_command_into_list(head);
     }
-
-    // unlatch dummy_head and set head as dummy_head->next
-    List *temp = dummy_head;
-    List *head = dummy_head->next;
-
-    // free dummy_head memory
-    free(temp);
 
     // execute commands
     List *p = head;
     while (p) {
+        printf("current pointer's command string: %s\n", p->command);
         system(p->command);
 
         p = p->next;
     }
 
-    free_list_memory(dummy_head);
+    free_list_memory(head);
 
     return 0;
 }
