@@ -3,7 +3,6 @@
 # Requirements:
 * osx / windows / linux
 * git
-* if using custom commands feature: gcc/clang compiler
 
 # If you do not have git installed:
 # WINDOWS: 
