@@ -7,12 +7,17 @@
 const STR_LEN = 1024;
 
 typedef struct list {
-    char command[STR_LEN];
+    char *command;
     struct list *next;
 } List;
 
 List *create_new_node(char *command) {
     List *node = (List *)calloc(1, sizeof(List));
+
+    node->command = command;
+    node->next = NULL;
+
+    return node;
 }
 
 void insert_into_list(char *command, List *list) {
