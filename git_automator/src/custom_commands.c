@@ -4,7 +4,7 @@
 #include <string.h>
 #include<unistd.h> 
 
-const STR_LEN = 1024;
+const int STR_LEN = 1024;
 
 typedef struct list {
     char *command;
@@ -21,7 +21,7 @@ List *create_new_node(char *command) {
 }
 
 void insert_into_list(char *command, List *list) {
-    if (!list) return create_new_node(command);
+    if (!list) list = create_new_node(command);
 
     // insert to tail
     List *p = list;
