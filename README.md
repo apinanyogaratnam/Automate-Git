@@ -57,6 +57,11 @@ the code will not display for automate_git but will show up as a directory.
 #### 1. open .gitignore
 #### 2. remove line with `/automate_git`
 
+## 4. Custom commands
+### How to use:
+#### 1. change directory to git_automator
+#### 2. for unix: `./custom_commands` | for windows: `custom_commands`
+#### 3. follow the instructions provided
 
 Notes: <br />
 - Old versions will work regardless of version updates
