@@ -1,6 +1,10 @@
 from github import Github
 from git import Repo
 import os
+from dotenv import load_dotenv
+
+# load env variables
+load_dotenv()
 
 def main():
     repo_dir = ""
