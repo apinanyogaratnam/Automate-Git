@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 # load env variables
 load_dotenv()
 
+
 def main():
     repo_dir = ""
     repo = Repo(repo_dir)
