@@ -21,6 +21,8 @@ def main():
 
 
 def alternative_push():
+    # when in sub dir:
+    os.chdir('..')
     import subprocess
     commit_message = "testing out commit using subprocess (1)"
     subprocess.call(['git', 'add', '.'])
