@@ -21,7 +21,7 @@ def main():
 
 def alternative_push():
     import subprocess
-    commit_message = "testing out commit using subprocess"
+    commit_message = "testing out commit using subprocess (1)"
     subprocess.call(['git', 'add', '.'])
     subprocess.call(['git', 'commit', '-m', '{}'.format(commit_message)])
     token = os.environ['TOKEN']
